@@ -1,23 +1,177 @@
-<!DOCTYPE html>
-<style>
-  /* netnet default bg */
-  body {
-    margin: 0;
-    background-image: linear-gradient(#515199a8 2px, transparent 1px),
-      linear-gradient(90deg, #515199a8 2px, transparent 1px);
-    background-size: 50px 50px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
+<!-- Created by Xavier Petrie on 2025/12/01 -->
 
-  body::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(0deg, #c76ebca8, #515199a8);
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="UTF-8">
+<title>Xavier Petrie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Kapakana:wght@300..400&display=swap" rel="stylesheet">  
+<style>
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  list-style: none;
   }
+  
+li {
+  margin: 40px;
+  margin-left: 40px;
+  display: inline-block;
+  font-size: 32px;
+  font-family: "Instrument Sans", sans-serif;
+  } 
+  
+a {
+  color: white;
+  text-decoration: none; 
+  }
+  
+  a:hover {
+  color: white;
+  text-decoration: underline;
+  }
+  
+  body {
+    background-color: grey;
+    width: 1440px;
+    height: 4146px;
+  }
+  
+  h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Instrument Sans", sans-serif;
+  text-align: center;
+  }
+  
+  #heading {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    width: 1200px;
+    height: 120px;
+  }
+  
+.background {
+    width: 1200px;
+    height: 579px;
+    background-color: white;
+    position: absolute;
+    top: 572px;
+    left: 120px
+  }
+#black-background {
+    background-color: black;
+  
+  
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    width: 1200px;
+    height: 540px;
+}
+ #contact {
+    position: absolute;
+    margin-left: 620px;
+    top: 670px;
+    font-size: 50px;
+    font-family: "Instrument Sans", sans-serif;
+}
+  #email {
+    position: absolute;
+    margin-left: 330px;
+    top: 830px;
+    font-size: 24px;
+    font-family: "Instrument Sans", sans-serif;
+}
+   #dash {
+    position: absolute;
+    margin-left: 710px;
+    top: 820px;
+    font-size: 24px;
+    font-family: "Instrument Sans", sans-serif;
+}
+   #number {
+    position: absolute;
+    margin-left: 850px;
+    top: 820px;
+    font-size: 24px;
+    font-family: "Instrument Sans", sans-serif;
+}
+  
+.xlogo {
+    cursor: pointer;
+    float: left;
+    margin: 20px;
+  }
+  
+.socials {
+  position: absolute;
+  top: 970px;
+  margin-left: 430px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 140px;
+}
+
+.socials img {
+  display: inline-block;
+}
 </style>
+</head>
+<body>
+<div id="heading">
+  <img src="X logo.png" alt="white cursive x" width="81px" height="81px" class="xlogo">
     
+    <nav>
+      <ul>
+        <li><a href="/">about</a></li>
+        <li><a href="/">resume</a></li>
+        <li><a href="/">xtier rugs</a></li>
+        <li><a href="/">contact</a></li>  
+        </ul>
+      </nav>
+    </div>
+  
+<!-- BACKGROUND -->
+  <div class="background">
+</div>
+ <div id="contact">
+            <p>Contact</p>
+          </div>
+        <div id="email">
+            <p>xpetrie@uwaterloo.ca</p>
+          </div>
+        <div id="dash">
+            <p>-</p>
+          </div>
+        <div id="number">
+                <p>(226) 791-3705</p>
+              </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/xavier-p-167261328/">
+            <img src="Linkedin.png" alt="Linkedin logo" width="100px" height="100px">
+            </a>
+          <a href="https://www.instagram.com/xtierrugs?utm_source=ig_web_button_share_sheet&igsh=MW04dzF0aWpxbTYzeg%3D%3D">
+            <img src="Instagram.png" alt="Instagram logo" width="100px" height="100px">
+            </a>
+          <a href="https://www.tiktok.com/@xtierrugs">
+            <img src="Tiktok.png" alt="Tiktok logo" width="100px" height="100px">
+            </a>
+          </div>
+    
+<!-- BLACK BACKGROUND -->
+   <div id="black-background">
+       <img src="xtier banner.png" alt="collage of tufted rugs and the X-Tier Rugs logo" width="1200px" height="400px">
+    <a href="https://linktr.ee/xtierrugs?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn8QliLA9FXipYvhpDqGU0gyMrLa7DbVND0MqCaXo22O2QtlJGMIL7YV6EJF4_aem_5sNQ9AeDwua6HkUbyLpGfQ">
+     <h1> X-TIER RUGS | ORDER TODAY</h1> 
+      </a>
+</div> 
+</body>
+</html>
